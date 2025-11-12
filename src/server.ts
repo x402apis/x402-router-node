@@ -18,7 +18,7 @@ export function createProviderServer(config: ServerConfig): ProviderServer {
         wallet: walletPath,
         port = 9000,
         publicUrl,
-        registry = 'http://localhost:3000/api',// DEFAULT_REGISTRY_URL,
+        registry = 'https://x402apis.io/api',// DEFAULT_REGISTRY_URL,
         chains = ['solana'],
         defaultPrice = 0,
         logging = true,

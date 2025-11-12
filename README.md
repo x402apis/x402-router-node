@@ -57,7 +57,7 @@ interface ServerConfig {
   wallet: string; // Path to wallet keypair
   port?: number; // Server port (default: 9000)
   publicUrl?: string; // Public URL (for NAT/proxy)
-  registry?: string; // Registry URL (default: registry.x402apis.io)
+  registry?: string; // Registry URL (default: x402apis.io/api)
   chains?: Chain[]; // Supported chains (default: ['solana'])
   defaultPrice?: number; // Default price (default: 0.01)
   logging?: boolean; // Enable logs (default: true)
